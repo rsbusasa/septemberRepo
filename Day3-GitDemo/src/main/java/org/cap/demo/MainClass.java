@@ -12,5 +12,6 @@ public class MainClass {
 	
 	public static void greetings(){
 		System.out.println("Hello World! Welcome To Git Repository");
+		System.out.println("Test 1 - Repo Test");
 	}
 }
