@@ -6,6 +6,7 @@ public class SalesClass {
 	
 	public void display(){
 		System.out.println("Sales Class Display method");
+		System.out.println("Array Data:");
 	}
 
 }
