@@ -7,9 +7,9 @@ public class SalesClass {
 	public void display(){
 		System.out.println("Sales Class Display method");
 		System.out.println("Array Data:");
-		for(int i=0;i<arr.length;i++)
+		for(int num:arr)
 		{
-			System.out.println(arr[i]);
+			System.out.println(num);
 		}
 	}
 
