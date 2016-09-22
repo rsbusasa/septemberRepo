@@ -6,10 +6,12 @@ public class SalesClass {
 	
 	public void display(){
 		System.out.println("Sales Class Display method");
-		System.out.println("Array Data:");
-		for(int num:arr)
+		System.out.println("Array Data Display:");
+		int sum=0;
+		for(int i=0;i<arr.length;i++)
 		{
-			System.out.println(num);
+			sum+=arr[i];
+			System.out.println(arr[i]);
 		}
 	}
 
